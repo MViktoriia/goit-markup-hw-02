@@ -28,6 +28,15 @@ body {
   list-style-type: none;
 }
 
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
 /* Header */
 
 .logo {
@@ -39,7 +48,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo-header {
+.header-logo {
   color: #000000;
 }
 .site-nav-list .link {
@@ -66,5 +75,114 @@ body {
 }
 .header-contacts-list .link:hover,
 .header-contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/* features */
+
+.features-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-item-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* services */
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+}
+.address {
+  font-style: normal;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
   color: var(--accent-color);
 }
